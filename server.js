@@ -20,3 +20,19 @@ app.listen(process.env.PORT || 3000, function(){
 
   console.log("listening..");
 });
+
+//*** Users Routes ***//
+app.get('/user',function(req, res){
+  if (err){
+    res.status(500).json( {error : err.message, });
+  else{
+    res.json(User);
+    }
+  }
+});
+
+app.get('/signup', function(req, res){
+  res.redirect('/');
+    }
+  };
+});
