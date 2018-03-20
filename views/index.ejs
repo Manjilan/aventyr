@@ -23,11 +23,10 @@
     <a href="/"><img src="/images/aventyr.png" id="logo"></a>
     <div>
       <a href="/api/cards">Gallery</a>
-      <% if(!user) { %>
+      <a href="/api/destinations">Destinations</a>
+      <% if(!user) { %>  
         <a href="" class="signup-btn">Sign up</a>
-        <a href="/login" class="btn teal lighten-3">Log In</a>
-        <a href="/api/destinations">Destinations</a>
-
+        <a href="/login" class="btn teal lighten-3">Log In</a
       <% } else { %>
         <a href="/api/users/<%=user.id%>"><%= user.username %></a>
         <a href="/logout" class="btn teal lighten-3">Log Out</a>
