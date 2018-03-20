@@ -31,13 +31,13 @@ img{
   width: 200px;
 }
 /* nav */
-.sticky-nav-wrapper {
+/* .sticky-nav-wrapper {
   height: 60px;
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-}
+} */
 
 .scrolled {
   position: fixed;
@@ -68,6 +68,7 @@ h3{
 footer p{
   margin:0;
   padding: 16px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 /* card */
 div.card-panel.card{
@@ -101,4 +102,20 @@ button{
   height:250px;
   width:250px;
   margin-top: 2em;
+}
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.showimage{
+  height: 40em;
+  width: 85%;
+}
+.color{
+background-color: #D2D8E5;
+padding-bottom: 5rem;
+
 }
