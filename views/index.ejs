@@ -34,18 +34,6 @@
           <% } %>
         </div>
       </nav>
-
-
-
-        <a href="/api/destinations">Destinations</a>
-
-
-      <% } else { %>
-        <a href="/api/users/<%=user.id%>"><%= user.username %></a>
-        <a href="/logout" class="btn teal lighten-3">Log Out</a>
-      <% } %>
-    </div>
-  </nav>
       <main>
         <div class="row" id="sign-up">
         <form method="POST" action="/signup" class="col s4 offset-s4">
