@@ -45,12 +45,12 @@ select{
 }
 
 /* nav */
-.sticky-nav-wrapper {
+/* .sticky-nav-wrapper {
   height: 60px;
   bottom: 0;
   left: 0;
   right: 0;
-}
+} */
 
 
 .scrolled {
@@ -79,6 +79,7 @@ h3{
 footer p{
   margin:0;
   padding: 16px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 /* card */
 div.card-panel.card{
@@ -139,4 +140,20 @@ h4{
 .dest-show-image {
   height: 15em;
   width: 30%;
+}
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.showimage{
+  height: 40em;
+  width: 85%;
+}
+.color{
+background-color: #D2D8E5;
+padding-bottom: 5rem;
+
 }
