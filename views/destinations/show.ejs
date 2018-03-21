@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <link rel="stylesheet" href="/styles/style.css">
-  <script src="../scripts/app.js"></script>
+  <script src="../../scripts/app.js"></script>
 
 </head>
 <body>
@@ -33,20 +33,18 @@
       </nav>
 
   <div id="target" class="row">
+    <h4 class="center-align"><%=destination.name%></h4>
     <img class="dest-show-image" src="<%= destination.image %>">
     <% for (let card of cards) { %>
       <div class="destination card-panel col s3 card">
         <img class="cards-image" src="<%=card.image%>">
         <p class="center-align"><%= card.title %></p>
         <p><%= card.description %></p>
-        <p>Rating: <%= card.rating %></p>
+        <p>Rating:<%= card.rating %>
+        </p>
         <p>Posted by: <%= card.user.username %></p>
       </div>
     <% } %>
-
   </div>
-
-  </div>
-
 </body>
 </html>
