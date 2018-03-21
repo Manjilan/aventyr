@@ -58,7 +58,6 @@ select{
   position: fixed;
   top: 0;
   z-index: 100;
-
 }
 /*signup form*/
 
@@ -81,6 +80,9 @@ footer p{
   margin:0;
   padding: 16px;
   font-family: 'Josefin Sans', sans-serif;
+}
+#target{
+  padding-top: 8rem;
 }
 /* card */
 div.card-panel.card{
