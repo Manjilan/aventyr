@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5, h6{
+  font-family: Raleway;
+  text-transform: uppercase;
+}
 #logo{
   width: 60px;
   height: auto;
@@ -8,6 +12,10 @@ header{
   background-size: cover;
   padding: 170px;
   margin-bottom: 0;
+}
+h2{
+  font-size: 2rem;
+  font-weight: bold;
 }
 h1{
   margin-right: 20px;
@@ -43,15 +51,6 @@ select{
   height: auto;
   width: 100%;
 }
-
-/* nav */
-/* .sticky-nav-wrapper {
-  height: 60px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-} */
-
 
 .scrolled {
   position: fixed;
@@ -104,6 +103,7 @@ img{
 button{
   margin-left: 45%;
 }
+/* Index Page */
 .profileimage{
   height:250px;
   width:250px;
@@ -116,6 +116,7 @@ button{
 section{
   padding: 5rem;
 }
+
 h4{
   padding-top: 5rem;
 }
@@ -126,17 +127,19 @@ h4{
 .profile, .row .col.s3{
   margin: 20px 50px;
 }
+/* Github Buttons */
 .github{
   margin: 0 30%;
 }
 .row.light-blue.lighten-3{
   padding-bottom: 3rem;
 }
+/* about part */
 .about{
   font-size: 20px;
   font-family: 'Josefin sans';
 }
-
+/* Show Page */
 .dest-show-image {
   height: 15em;
   width: 30%;

@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Aventyr</title>
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
@@ -15,6 +16,8 @@
   <nav class= "valign-wrapper grey lighten-2">
     <a href="/"><img src="/images/aventyr.png" id="logo"></a>
     <div>
+          <a href="/api/cards">Gallery</a>
+          <a href="/api/destinations">Destinations</a>
         <% if(!user) { %>
           <a href="/signup">Sign up</a>
           <a href="/login" class="btn teal lighten-3">Log In</a>
@@ -40,5 +43,3 @@
         </div>
       </body>
       </html>
-
-

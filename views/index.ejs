@@ -26,7 +26,7 @@
       <a href="/api/destinations">Destinations</a>
       <% if(!user) { %>
         <a href="" class="signup-btn">Sign up</a>
-        <a href="/login" class="btn teal lighten-3">Log In</a>
+        <a href="/login" class="btn teal lighten-3 signup-btn">Log In</a>
 
         <% } else { %>
           <a href="/api/users/<%=user.id%>"><%= user.username %></a>
@@ -36,7 +36,7 @@
       </nav>
       <main>
         <div class="row" id="sign-up">
-        <form method="POST" action="/signup" class="col s4 offset-s4">
+        <form method="POST" action="/signup" class="col s4 offset-s1">
           <h3 class="center-align">Sign Up</h3>
           <div class="form-group">
             <input type="text" name="username" class="form-control" placeholder="Username" autofocus>
@@ -49,6 +49,18 @@
           </div>
           <div class="form-group">
             <input type="submit" class="btn btn-block btn-primary" value="Sign Up">
+          </div>
+        </form>
+        <form method="POST" action="/login" class="col s4 offset-s2 login">
+          <h3 class="center-align">Log In</h3>
+          <div class="form-group">
+            <input type="text" name="username" class="form-control" placeholder="Username" autofocus>
+          </div>
+          <div class="form-group">
+            <input type="password" name="password" class="form-control" placeholder="Password">
+          </div>
+          <div class="form-group">
+            <input type="submit" class="btn btn-block btn-primary" value="Log In">
           </div>
         </form>
       </div>

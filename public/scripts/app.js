@@ -12,7 +12,7 @@ $(window).on('scroll', function(){
 });
  $('.carousel').carousel({padding: 300});
 
-$('.signup-btn').on('click', function(e){
+$('.signup-btn ').on('click', function(e){
   e.preventDefault();
   $("#sign-up").slideToggle("slow");
 })

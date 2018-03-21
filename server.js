@@ -98,8 +98,7 @@ app.post("/signup", function (req, res) {
 // Login and Logout
 
 app.post('/login',passport.authenticate('local'), function (req, res){
-
-res.redirect("/");
+res.redirect("/api/users/req.user");
 });
 
 app.get('/login', function(req, res){
