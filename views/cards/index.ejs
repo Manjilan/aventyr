@@ -24,7 +24,7 @@
           <a href="/login" class="btn teal lighten-3">Log In</a>
         <% } else { %>
           <a href="/api/cards/create"><i class="fas fa-pencil-alt"></i></a>
-          <a href=""><%= user.username %></a>
+          <a href="/api/users/<%=user._id%>"><%= user.username %></a>
           <a href="/logout" class="btn teal lighten-3">Log Out</a>
         <% } %>
         </div>
@@ -34,16 +34,8 @@
           <a href="/api/cards/<%=card.id%>">
           <div class="card-panel col s3 card">
             <img class="cards-image" src="<%=card.image%>">
-            <p class="center-align"><%= card.title %>
-            <% if(user) { %>
-            <form method="POST" action="cards/<%= card._id %>?_method=DELETE">
-                <button type = "submit">
-                  <i class="fas fa-trash"></i>
-                </button>
-            </form>
-            </p>
+            <p class="center-align"><%= card.title %></p>
           </a>
-            <% } %>
           </div>
           <% } %>
         </div>
