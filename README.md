@@ -4,7 +4,10 @@
 Aventyr is an app that helps the travelers or adventurers find inspiration from other people's card. The cards here are experiences other travelers create and provide information on the destinations. In many ways its Pinterest meets instagram meets travel.
 
 ## Wireframes
-
+<img src="https://files.slack.com/files-pri/T0351JZQ0-F9T3ZN20G/image_uploaded_from_ios.jpg" width=300px>
+<img src="https://files.slack.com/files-pri/T0351JZQ0-F9TSTA0SH/image_uploaded_from_ios.jpg" width=300px>
+<img src="https://files.slack.com/files-pri/T0351JZQ0-F9TMY0012/image_uploaded_from_ios.jpg" width=300px>
+<img src="https://files.slack.com/files-pri/T0351JZQ0-F9UJE6RQE/image_uploaded_from_ios.jpg" width=300px>
 
 ## MVP:
 - A Home and About Page that gives users information about top travel destinations and information about the website creators
