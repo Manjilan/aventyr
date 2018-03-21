@@ -77,7 +77,7 @@ app.get("/", function(req, res) {
 
 // Signup
 app.get('/signup', function (req, res) {
- res.render("/api/users/req.user");
+ res.render("signup");
 });
 
 
