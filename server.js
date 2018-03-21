@@ -77,7 +77,7 @@ app.get("/", function(req, res) {
 
 // Signup
 app.get('/signup', function (req, res) {
- res.render('signup');
+ res.render("/api/users/req.user");
 });
 
 
@@ -89,7 +89,7 @@ app.post("/signup", function (req, res) {
         console.log("ERROR", err);
         console.log("NEW USER!!",newUser);
         passport.authenticate("local")(req, res, function() {
-          res.redirect("/");
+          res.render("index", {user: req.user});
         });
       }
   );
