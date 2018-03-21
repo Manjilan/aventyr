@@ -1,5 +1,5 @@
 ## Aventyr
-!(https://fast-brook-23117.herokuapp.com/images/aventyr.png)
+<img src="https://fast-brook-23117.herokuapp.com/images/aventyr.png">
 
 Aventyr is an app that helps the travelers or adventurers find inspiration from other people's card. The cards here are experiences other travelers create and provide information on the destinations. In many ways its Pinterest meets instagram meets travel.
 
