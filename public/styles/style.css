@@ -28,6 +28,8 @@ h1{
 nav{
   display: flex;
   justify-content: space-between;
+  text-transform: uppercase;
+  font-family: Raleway;
 }
 nav a{
   margin: 0 15px;
