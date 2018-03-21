@@ -15,8 +15,8 @@
 </head>
 <body>
   <nav class= "valign-wrapper grey lighten-2">
-    <a href="/"><img src="/images/aventyr.png" id="logo"></a>
-    <div>
+      <a href="/"><img src="/images/aventyr.png" id="logo"></a>
+      <div>
           <a href="/api/cards">Gallery</a>
           <a href="/api/destinations">Destinations</a>
         <% if(!user) { %>
@@ -30,8 +30,8 @@
 
         <% } %>
         </div>
-      </nav>
-
+    </nav>
+    <main>
   <div id="target" class="row">
     <h4 class="center-align"><%=destination.name%></h4>
     <img class="dest-show-image" src="<%= destination.image %>">
@@ -46,5 +46,6 @@
       </div>
     <% } %>
   </div>
+</main>
 </body>
 </html>

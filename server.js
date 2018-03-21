@@ -174,7 +174,7 @@ app.get("/api/cards/:id", function(req, res){
     if (err){
       console.log(err);
     } else{
-      res.render("./cards/show",{card: foundCard});
+      res.render("./cards/show",{card: foundCard, user: req.user});
       // foundCard.title = req.body.title || foundCard.title;
       // foundCard.description = req.body.description || foundCard.description;
       // foundCard.image = req.body.title || foundCard.image;
