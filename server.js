@@ -102,7 +102,7 @@ res.redirect("/api/users/req.user");
 });
 
 app.get('/login', function(req, res){
-  res.render("login")
+  res.render("login", {user: req.user})
 });
 
 app.get('/logout', function (req, res){
