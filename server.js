@@ -61,9 +61,6 @@ app.use(function(req, res, next) {
 //  ROUTES
 ///////////////////
 
-// set view engine to ejs
-app.set("view engine", "ejs");
-
 app.get("/", function(req, res) {
   Destination.find(function (err, allDestinations) {
     console.log(allDestinations);
@@ -140,7 +137,7 @@ app.get("/api/cards/create", function(req, res){
 
 });
 
-// create cards
+
 // create cards
 app.post("/api/cards", function(req, res){
   var newCard = new Card(req.body);
