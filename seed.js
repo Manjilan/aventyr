@@ -64,7 +64,7 @@ var cardList = [
   }
 ];
 
-db.Card.remove({}, function(err, cards) {
+db.Card.deleteMany({}, function(err, cards) {
   console.log('removed all cards');
   db.Card.create(cardList, function(err, cards){
     if (err) {
@@ -89,7 +89,7 @@ db.Card.remove({}, function(err, cards) {
 // });
 
 // remove all records that match {} -- which means remove ALL records
-db.Destination.remove({}, function(err, destinations) {
+db.Destination.deleteMany({}, function(err, destinations) {
   console.log('removed all destinations');
   db.Destination.create(destinationsList, function(err, destinations){
      if (err) {
